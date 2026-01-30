@@ -1,0 +1,106 @@
+{
+  "name": "switch-it-easy",
+  "displayName": "Switch It Easy",
+  "description": "Colorful window-code icons in your editor title bar — click to instantly switch between open VS Code windows",
+  "version": "1.0.0",
+  "publisher": "niceit",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niceit/switch-it-easy"
+  },
+  "homepage": "https://github.com/niceit/switch-it-easy#readme",
+  "bugs": {
+    "url": "https://github.com/niceit/switch-it-easy/issues"
+  },
+  "keywords": [
+    "window",
+    "switch",
+    "workspace",
+    "multi-window",
+    "tabs",
+    "productivity",
+    "macos",
+    "window-manager"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Keymaps"
+  ],
+  "galleryBanner": {
+    "color": "#282C34",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "extensionKind": [
+    "ui"
+  ],
+  "contributes": {
+    "commands": [
+      { "command": "switchItEasy.refresh", "title": "Switch It Easy: Refresh Windows", "icon": "$(refresh)" },
+      { "command": "switchItEasy.slot0", "title": "Window 1", "icon": { "dark": "media/slots/slot0.svg", "light": "media/slots/slot0.svg" } },
+      { "command": "switchItEasy.slot0cur", "title": "Window 1 (current)", "icon": { "dark": "media/slots/slot0_cur.svg", "light": "media/slots/slot0_cur.svg" } },
+      { "command": "switchItEasy.slot1", "title": "Window 2", "icon": { "dark": "media/slots/slot1.svg", "light": "media/slots/slot1.svg" } },
+      { "command": "switchItEasy.slot1cur", "title": "Window 2 (current)", "icon": { "dark": "media/slots/slot1_cur.svg", "light": "media/slots/slot1_cur.svg" } },
+      { "command": "switchItEasy.slot2", "title": "Window 3", "icon": { "dark": "media/slots/slot2.svg", "light": "media/slots/slot2.svg" } },
+      { "command": "switchItEasy.slot2cur", "title": "Window 3 (current)", "icon": { "dark": "media/slots/slot2_cur.svg", "light": "media/slots/slot2_cur.svg" } },
+      { "command": "switchItEasy.slot3", "title": "Window 4", "icon": { "dark": "media/slots/slot3.svg", "light": "media/slots/slot3.svg" } },
+      { "command": "switchItEasy.slot3cur", "title": "Window 4 (current)", "icon": { "dark": "media/slots/slot3_cur.svg", "light": "media/slots/slot3_cur.svg" } },
+      { "command": "switchItEasy.slot4", "title": "Window 5", "icon": { "dark": "media/slots/slot4.svg", "light": "media/slots/slot4.svg" } },
+      { "command": "switchItEasy.slot4cur", "title": "Window 5 (current)", "icon": { "dark": "media/slots/slot4_cur.svg", "light": "media/slots/slot4_cur.svg" } },
+      { "command": "switchItEasy.slot5", "title": "Window 6", "icon": { "dark": "media/slots/slot5.svg", "light": "media/slots/slot5.svg" } },
+      { "command": "switchItEasy.slot5cur", "title": "Window 6 (current)", "icon": { "dark": "media/slots/slot5_cur.svg", "light": "media/slots/slot5_cur.svg" } },
+      { "command": "switchItEasy.slot6", "title": "Window 7", "icon": { "dark": "media/slots/slot6.svg", "light": "media/slots/slot6.svg" } },
+      { "command": "switchItEasy.slot6cur", "title": "Window 7 (current)", "icon": { "dark": "media/slots/slot6_cur.svg", "light": "media/slots/slot6_cur.svg" } },
+      { "command": "switchItEasy.slot7", "title": "Window 8", "icon": { "dark": "media/slots/slot7.svg", "light": "media/slots/slot7.svg" } },
+      { "command": "switchItEasy.slot7cur", "title": "Window 8 (current)", "icon": { "dark": "media/slots/slot7_cur.svg", "light": "media/slots/slot7_cur.svg" } },
+      { "command": "switchItEasy.slot8", "title": "Window 9", "icon": { "dark": "media/slots/slot8.svg", "light": "media/slots/slot8.svg" } },
+      { "command": "switchItEasy.slot8cur", "title": "Window 9 (current)", "icon": { "dark": "media/slots/slot8_cur.svg", "light": "media/slots/slot8_cur.svg" } },
+      { "command": "switchItEasy.slot9", "title": "Window 10", "icon": { "dark": "media/slots/slot9.svg", "light": "media/slots/slot9.svg" } },
+      { "command": "switchItEasy.slot9cur", "title": "Window 10 (current)", "icon": { "dark": "media/slots/slot9_cur.svg", "light": "media/slots/slot9_cur.svg" } }
+    ],
+    "menus": {
+      "editor/title": [
+        { "command": "switchItEasy.slot0", "when": "switchItEasy.slot0visible && !switchItEasy.slot0current", "group": "navigation@0" },
+        { "command": "switchItEasy.slot0cur", "when": "switchItEasy.slot0visible && switchItEasy.slot0current", "group": "navigation@0" },
+        { "command": "switchItEasy.slot1", "when": "switchItEasy.slot1visible && !switchItEasy.slot1current", "group": "navigation@1" },
+        { "command": "switchItEasy.slot1cur", "when": "switchItEasy.slot1visible && switchItEasy.slot1current", "group": "navigation@1" },
+        { "command": "switchItEasy.slot2", "when": "switchItEasy.slot2visible && !switchItEasy.slot2current", "group": "navigation@2" },
+        { "command": "switchItEasy.slot2cur", "when": "switchItEasy.slot2visible && switchItEasy.slot2current", "group": "navigation@2" },
+        { "command": "switchItEasy.slot3", "when": "switchItEasy.slot3visible && !switchItEasy.slot3current", "group": "navigation@3" },
+        { "command": "switchItEasy.slot3cur", "when": "switchItEasy.slot3visible && switchItEasy.slot3current", "group": "navigation@3" },
+        { "command": "switchItEasy.slot4", "when": "switchItEasy.slot4visible && !switchItEasy.slot4current", "group": "navigation@4" },
+        { "command": "switchItEasy.slot4cur", "when": "switchItEasy.slot4visible && switchItEasy.slot4current", "group": "navigation@4" },
+        { "command": "switchItEasy.slot5", "when": "switchItEasy.slot5visible && !switchItEasy.slot5current", "group": "navigation@5" },
+        { "command": "switchItEasy.slot5cur", "when": "switchItEasy.slot5visible && switchItEasy.slot5current", "group": "navigation@5" },
+        { "command": "switchItEasy.slot6", "when": "switchItEasy.slot6visible && !switchItEasy.slot6current", "group": "navigation@6" },
+        { "command": "switchItEasy.slot6cur", "when": "switchItEasy.slot6visible && switchItEasy.slot6current", "group": "navigation@6" },
+        { "command": "switchItEasy.slot7", "when": "switchItEasy.slot7visible && !switchItEasy.slot7current", "group": "navigation@7" },
+        { "command": "switchItEasy.slot7cur", "when": "switchItEasy.slot7visible && switchItEasy.slot7current", "group": "navigation@7" },
+        { "command": "switchItEasy.slot8", "when": "switchItEasy.slot8visible && !switchItEasy.slot8current", "group": "navigation@8" },
+        { "command": "switchItEasy.slot8cur", "when": "switchItEasy.slot8visible && switchItEasy.slot8current", "group": "navigation@8" },
+        { "command": "switchItEasy.slot9", "when": "switchItEasy.slot9visible && !switchItEasy.slot9current", "group": "navigation@9" },
+        { "command": "switchItEasy.slot9cur", "when": "switchItEasy.slot9visible && switchItEasy.slot9current", "group": "navigation@9" }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "tsc --noEmit",
+    "package": "npx @vscode/vsce package",
+    "publish": "npx @vscode/vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

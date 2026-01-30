@@ -1,0 +1,50 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2C313A"/>
+      <stop offset="100%" stop-color="#21252B"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="20" fill="url(#bg)"/>
+
+  <!-- Top-left: red -->
+  <rect x="16" y="16" width="28" height="22" rx="3" stroke="#E06C75" stroke-width="2" fill="#E06C75" fill-opacity="0.2"/>
+  <line x1="16" y1="22" x2="44" y2="22" stroke="#E06C75" stroke-width="1.5"/>
+  <line x1="20" y1="28" x2="36" y2="28" stroke="#E06C75" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="20" y1="32" x2="32" y2="32" stroke="#E06C75" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Top-center: yellow -->
+  <rect x="50" y="16" width="28" height="22" rx="3" stroke="#E5C07B" stroke-width="2" fill="#E5C07B" fill-opacity="0.2"/>
+  <line x1="50" y1="22" x2="78" y2="22" stroke="#E5C07B" stroke-width="1.5"/>
+  <line x1="54" y1="28" x2="70" y2="28" stroke="#E5C07B" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="54" y1="32" x2="66" y2="32" stroke="#E5C07B" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Top-right: blue (highlighted/current) -->
+  <rect x="84" y="16" width="28" height="22" rx="3" fill="#61AFEF"/>
+  <line x1="84" y1="22" x2="112" y2="22" stroke="#1e1e1e" stroke-width="1.5" stroke-opacity="0.3"/>
+  <line x1="88" y1="28" x2="104" y2="28" stroke="#1e1e1e" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <line x1="88" y1="32" x2="100" y2="32" stroke="#1e1e1e" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.5"/>
+
+  <!-- Middle-left: green -->
+  <rect x="16" y="46" width="28" height="22" rx="3" stroke="#98C379" stroke-width="2" fill="#98C379" fill-opacity="0.2"/>
+  <line x1="16" y1="52" x2="44" y2="52" stroke="#98C379" stroke-width="1.5"/>
+  <line x1="20" y1="58" x2="36" y2="58" stroke="#98C379" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="20" y1="62" x2="32" y2="62" stroke="#98C379" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Middle-center: purple -->
+  <rect x="50" y="46" width="28" height="22" rx="3" stroke="#C678DD" stroke-width="2" fill="#C678DD" fill-opacity="0.2"/>
+  <line x1="50" y1="52" x2="78" y2="52" stroke="#C678DD" stroke-width="1.5"/>
+  <line x1="54" y1="58" x2="70" y2="58" stroke="#C678DD" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="54" y1="62" x2="66" y2="62" stroke="#C678DD" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Middle-right: cyan -->
+  <rect x="84" y="46" width="28" height="22" rx="3" stroke="#56B6C2" stroke-width="2" fill="#56B6C2" fill-opacity="0.2"/>
+  <line x1="84" y1="52" x2="112" y2="52" stroke="#56B6C2" stroke-width="1.5"/>
+  <line x1="88" y1="58" x2="104" y2="58" stroke="#56B6C2" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="88" y1="62" x2="100" y2="62" stroke="#56B6C2" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Arrow in bottom area -->
+  <path d="M44 90 L64 80 L84 90" stroke="#ABB2BF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="64" y1="80" x2="64" y2="108" stroke="#ABB2BF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M54 102 L64 112 L74 102" stroke="#ABB2BF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,12 @@
+.vscode/
+.gitignore
+.DS_Store
+src/
+tsconfig.json
+*.ts
+*.map
+node_modules/
+media/icon.svg
+bin/switch_window.swift
+*.vsix
+CHANGELOG.md
