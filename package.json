@@ -1,28 +1,35 @@
 {
   "name": "switch-it-easy",
   "displayName": "Switch It Easy",
-  "description": "Colorful window-code icons in your editor title bar — click to instantly switch between open VS Code windows",
-  "version": "1.0.0",
-  "publisher": "niceit",
+  "description": "Switch between open VS Code windows instantly with colorful one-click icons in the editor title bar. Fast native window switcher for multi-project workflows on macOS. Works with VS Code, Cursor & Windsurf.",
+  "version": "1.0.2",
+  "publisher": "takeiteasy",
   "license": "MIT",
   "icon": "media/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/niceit/switch-it-easy"
+    "url": "https://github.com/phpdude/switch-it-easy"
   },
-  "homepage": "https://github.com/niceit/switch-it-easy#readme",
+  "homepage": "https://github.com/phpdude/switch-it-easy#readme",
   "bugs": {
-    "url": "https://github.com/niceit/switch-it-easy/issues"
+    "url": "https://github.com/phpdude/switch-it-easy/issues"
   },
   "keywords": [
     "window",
     "switch",
+    "window switcher",
+    "window manager",
     "workspace",
     "multi-window",
+    "multi-project",
     "tabs",
     "productivity",
+    "workflow",
     "macos",
-    "window-manager"
+    "cursor",
+    "windsurf",
+    "focus",
+    "quick switch"
   ],
   "engines": {
     "vscode": "^1.85.0"
