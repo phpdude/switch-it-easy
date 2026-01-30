@@ -2,7 +2,7 @@
   "name": "switch-it-easy",
   "displayName": "Switch It Easy",
   "description": "Switch between open VS Code windows instantly with colorful one-click icons in the editor title bar. Fast native window switcher for multi-project workflows on macOS. Works with VS Code, Cursor & Windsurf.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "takeiteasy",
   "license": "MIT",
   "icon": "media/icon.png",
